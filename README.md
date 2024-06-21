@@ -19,7 +19,8 @@ Sometimes, you may use `CMakePresets.json` file, like the below
             "displayName": "CustomPreset",
             "description": "Sets Ninja generator, build and install directory",
             "generator": "Ninja",
-            "binaryDir": "${sourceDir}/build/${presetName}",
+            // "binaryDir": "${sourceDir}/build/${presetName}",
+            "binaryDir": "${sourceDir}/build",
             "cacheVariables": {
                 // "CMAKE_BUILD_TYPE": "Release",
                 "CMAKE_BUILD_TYPE": "Debug",
