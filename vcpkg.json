@@ -1,0 +1,14 @@
+{
+    "dependencies": [
+        "spdlog",
+        "doctest",
+        "fmt"
+    ],
+    "builtin-baseline": "01f602195983451bc83e72f4214af2cbc495aa94",
+    "overrides": [
+        {
+            "name": "spdlog",
+            "version": "1.13.0"
+        }
+    ]
+}
